@@ -11,9 +11,13 @@ header, footer {
     background-image: url('images/fireskystudios-com-46284.jpg');
     
 }
+iframe{
+    align-items:center;
+}
 .topHeader{
     font-family:Tahoma;
     font-size:75px;
+    font-style:italic;
     color:darkorange;
     padding:1px;
 }
@@ -35,25 +39,26 @@ header, footer {
 .headimage, img {
     float:left;
     margin: 0 0 10px 10px;
-    height:200px;
+    height:250px;
     width:auto;
 }
 
 .cssPics, img{
     
     display:inline;
-    height:150px;
+    margin: 5px 5px 5px 5px;
+    height:110px;
      width:auto;
 }
 
 .ownerPic, img{
     float:right;
-    margin: 0 0 10px 10px;
+    margin: 5px 5px 5px 5px;
     height:200px;
     width:auto;
 }
 .ownerPic, figcaption{
-    color:cornflowerblue;
+    color:darkred;
     font-size:small;
     text-align:end;
 }
@@ -65,7 +70,7 @@ h1, h2, h3{
     padding:5px;
 }
 p{
-    color:sienna;
+    color:indigo;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-content:center;
     column-count:2;
@@ -74,18 +79,111 @@ p{
 }
 ul{
     text-align:center;
-    padding:15px;
+    padding:10px;
 }
 li {
-    color:burlywood;
+    color:darkorange;
     font-family: Tahoma;
-    font-size:medium;
-    list-style:none;
+    font-size: medium;
+    list-style: none;
+    padding: 10px;
+}
+
+    /** { IMPORTED from codepen.io/seebrandt/pen/yvqIm 
+}*/
+
+.clear {
+  clear: both;
+}
+
+.menu {
+  font-family:Tahoma;
+  font-size: 1.2em;
+  color:burlywood;
+  width: 75%;
+  background-color:darkolivegreen;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10em;
+}
+
+.menu p {
+ align-content:center;
+    column-count:1;
     padding:10px;
+     width: 80%;
+  margin: 0 auto;
+  margin-top: 3em;
+  font-weight: 800;
+  font-size: 1em;
+  font-family:Tahoma;
+  
+  color:burlywood;
+}
+.menu h1{
+    color:darkorange;
+}
+.page {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-family:Tahoma;
+  font-size: 1.2em;
+  color:burlywood;
+}
+
+.page table {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.page table tr {
+  height: 4em;
+}
+
+.page .product {
+  text-align: left;
+  font-weight: 800;
+}
+
+.page .product span {
+  font-weight: 600;
+  font-size: .8em;
+}
+
+.page .price {
+  width: 20%;
+  text-align:left;
+}
+
+.page .price span {
+  font-size: .8em;
+}
+
+.page .extra_item {
+  font-size: 1em;
+  margin-top: 4em;
+  text-align: left;
+  width: 65%;
+}
+
+.page .extra_item tr {
+  height: 2em;
+}
+
+.page .extra {
+  font-weight: 800;
+}
+
+.page .extra .price {
+
+}
+
+
+
+
 
     
-    
-}
+
 
 
 

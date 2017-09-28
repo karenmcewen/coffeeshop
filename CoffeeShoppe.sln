@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CoffeeShoppe", "..\..\WebSites\CoffeeShoppe\", "{35DD3002-538F-4641-903B-57B575192711}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CoffeeShoppe", ".", "{35DD3002-538F-4641-903B-57B575192711}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_49283"
@@ -21,8 +21,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CoffeeShoppe", "..\..\WebSi
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "49283"
-		SlnRelativePath = "..\..\WebSites\CoffeeShoppe\"
-		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
 Global
