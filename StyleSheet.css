@@ -1,0 +1,92 @@
+﻿body {
+    background-color:burlywood;
+}
+
+div {
+    clear:both;
+    padding:1px;
+}
+header, footer {
+    display: block;
+    background-image: url('images/fireskystudios-com-46284.jpg');
+    
+}
+.topHeader{
+    font-family:Tahoma;
+    font-size:75px;
+    color:darkorange;
+    padding:1px;
+}
+
+.secondHeader{
+    font-family:Tahoma;
+    font-size:55px;
+    color:darkorange;
+    padding:1px;
+}
+
+.thirdHeader{
+    font-family:Tahoma;
+    font-size:35px;
+    color:darkorange;
+    padding:1px;
+}
+
+.headimage, img {
+    float:left;
+    margin: 0 0 10px 10px;
+    height:200px;
+    width:auto;
+}
+
+.cssPics, img{
+    
+    display:inline;
+    height:150px;
+     width:auto;
+}
+
+.ownerPic, img{
+    float:right;
+    margin: 0 0 10px 10px;
+    height:200px;
+    width:auto;
+}
+.ownerPic, figcaption{
+    color:cornflowerblue;
+    font-size:small;
+    text-align:end;
+}
+
+h1, h2, h3{
+    text-align:center;
+    text-decoration:solid;
+    color:darkred;
+    padding:5px;
+}
+p{
+    color:sienna;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-content:center;
+    column-count:2;
+    padding:10px;
+
+}
+ul{
+    text-align:center;
+    padding:15px;
+}
+li {
+    color:burlywood;
+    font-family: Tahoma;
+    font-size:medium;
+    list-style:none;
+    padding:10px;
+
+    
+    
+}
+
+
+
+
